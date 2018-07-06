@@ -4,10 +4,12 @@ This is a dictionary, which is able to allow users to input words. Then, return 
 
 
 
+
 It would return that it can not find definition if users input the wrong word.
 The wrong word in the entry form will be clearned if users click the reset button.
 
 <img width="493" alt="screen shot 2018-07-05 at 11 36 21 pm" src="https://user-images.githubusercontent.com/35472776/42363610-210d0a96-80ad-11e8-8df9-868a86448c1c.png">
+
 
 
 
