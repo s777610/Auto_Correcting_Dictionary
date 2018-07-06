@@ -1,5 +1,9 @@
 import json
+from tkinter import *
 from difflib import get_close_matches
+
+window = Tk()
+window.title("Dictionary")
 
 data = json.load(open("data.json"))
 
@@ -21,11 +25,8 @@ def translate(w):
             return "The word doesn't exist. Please double check it."
         else:
             return "We did not understand your entry."
-
     else:
         return "The word doesn't exist. Please double check it."
-
-
 
 w = input("Enter word: ")
 list_of_output = translate(w)
@@ -35,3 +36,5 @@ if type(list_of_output) == list:
         print(value)
 else:
     print(list_of_output)
+
+
